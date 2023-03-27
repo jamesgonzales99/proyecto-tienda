@@ -34,6 +34,8 @@ body {
 
 
 
+
+
 .container-header{
     display: flex;
     flex-direction: row;
@@ -91,6 +93,11 @@ a {
 
 /* funete de color
  9D6046 46% de transpariencia*/
+
+
+ .main-footer{
+    height: 1000px;
+ }
 
  
 
@@ -216,15 +223,64 @@ footer{
 
 
 @media (max-width:768px){
-    body{
-        background-color: red;
+    header div {
+        justify-self: center;
+    }
+    header{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    .container-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#bff1ee88;
+      
     }
 }
+
+
+    
+
+
 
 @media (max-width:320px){
-    body{
-        background-color: yellow;
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        gap: 10px;
+    }
+    
+    .section-card{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+}
+@media (max-width:1250px){
+    .section-card{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+}
+@media (max-width:942px){
+    .section-card{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+    .titulos{
+        font-size: 4rem;
+        justify-self: center;
     }
 }
 
+
+@media (max-width:768px){
+    .section-card{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+}
 
