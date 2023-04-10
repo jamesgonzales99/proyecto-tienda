@@ -1,0 +1,52 @@
+@media (max-width:425px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        column-gap: 2px;
+        margin-top: 2px;
+        justify-content: space-between;
+        height: 300px;
+    }
+
+    
+    a{
+        font-size: 30px;
+    }
+
+    header{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-login{
+       text-align: center;
+    }
+
+
+
+    p{
+        font-size: 2rem;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .titulos{
+        flex-direction: column;
+        /* align-items: center; */
+        justify-self: center;
+        font-size: 5rem;
+        margin: 1px;
+    }
+
+    .section-card{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+
+}

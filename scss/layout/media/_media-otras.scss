@@ -1,0 +1,44 @@
+@media (max-width:1250px){
+    .section-card{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+}
+
+
+
+@media (max-width:942px){
+    .section-card{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+}
+
+@media (max-width:850px){
+    a{
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width:606px){
+    a{
+        font-size: 15px;
+        
+    }
+    .section-card{
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        height: 100%;
+        align-items: center;
+
+        
+    }    
+
+    
+
+
+
+}
