@@ -3,73 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 html {
     font-size: 62.5%;
+    height: 100%;
 }
+
+
 body {
-   background-color: aliceblue;
-
-
-}
-.yaya{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 80% auto;
-    width: 100%;
-    height: 100vh;
-
-}
-.imagenes{
+    background-color: bisque;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 20px;
+    min-height: 100%;
+ }
 
 
-}
-
-
-
-
-
-
-
-.container-header{
+ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color:#bff1ee88;
     width: 100%;
     height: 100px;
-
-}
-.container-header div img{
+ }
+ header div img{
     width: 100%;
-    height: 80px;
-}
-.navbar{
-  display: flex;
-  list-style: none;
-  column-gap: 30px;
-  margin-top: 30px;
-  justify-content: space-between;
+    height: 100px;
+ }
 
-}
-nav{
+
+ .navbar{
+    display: flex;
+    list-style: none;
+    /* column-gap: 220px; */
+    /* margin-top: 30px; */
+    justify-content: space-between;
+ }
+
+
+ nav{
     width: 80%;
     justify-self: center;
     align-self: center;
 }
 
+
 .navbar li a{
     color:black;
     list-style: none;
 }
+
+
 .container-login{
     margin-top: 10px;
 }
+
+
 .container-login a{
     margin-right: 20px;
     text-decoration: none;
@@ -77,7 +66,6 @@ nav{
     padding: 5px;
     border: solid 1px black;
     font-size: 2rem;
-
 }
 
 
@@ -85,23 +73,64 @@ a {
     color: black;
     font-size: 3rem;
     font-family: 'Staatliches', cursive;
-
 }
-/* fuentes: font-family: 'Albert Sans', sans-serif; PARAFFO
-            font-family: 'Staatliches', cursive; TITULOS
-*/
-
-/* funete de color
- 9D6046 46% de transpariencia*/
 
 
- .main-footer{
-    height: 1000px;
+p {
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.titulos{
+    color: black;
+    font-size: 10rem;
+    font-family: 'Staatliches', cursive;
+    margin: 3rem;
  }
 
 
+ .imagenes{
+    display: flex;
+    flex-direction: column;
+    /* margin: 300px;
+    margin-top: 20px; */
+    width: 100%;
+    
+ }
 
-  .section-card{
+ .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    width: 100%;
+
+
+    
+
+
+}
+.form input{
+    width: 30%;
+    height: 70px;
+    margin-top: 50px;
+    font-size: 2.5rem;
+
+}
+
+.imagen-nosotros{
+    margin: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height:400px;
+ }
+
+ .section-card{
     margin-top: 100px;
     margin-bottom: 100PX;
     display: grid;
@@ -110,9 +139,7 @@ a {
     justify-items: center;
  }
 
-
-
-.card{
+ .card{
     width: 300px;
     height: 400px;
     background-color: rgb(236, 115, 115);
@@ -123,9 +150,6 @@ a {
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(5,1fr);
     margin-top: 100px;
-
-
-
 }
 
 .card img{
@@ -169,46 +193,6 @@ a {
 }
 
 
-
-.yaya section img{
-    width: 500px;
-
-
-}
-
- .titulos{
-    color: black;
-    font-size: 10rem;
-    font-family: 'Staatliches', cursive;
-    margin: 3rem;
- }
-
-p {
-    color: black;
-    font-size: 2.5rem;
-    text-align: center;
-    font-family: 'Albert Sans', sans-serif;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid black 1px;
-
-
-}
-.form input{
-    width: 30%;
-    height: 70px;
-    margin-top: 50px;
-    font-size: 2.5rem;
-
-}
-
-
-
-
 .footer-redes{
     display: flex;
     flex-direction: row-reverse;
@@ -219,7 +203,10 @@ p {
 }
 footer{
     background-color: #bff1ee88;
+    margin-top: auto;
+    
 }
+
 
 
 
@@ -332,7 +319,7 @@ footer{
           grid-template-columns: 1fr;
           grid-template-rows: 1fr 1fr;
         }
-    .container-header{
+    header{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -363,7 +350,7 @@ footer{
         font-size: 30px;
     }
 
-    .container-header{
+    header{
         width: 100%;
         height: 100%;
     }
@@ -419,7 +406,7 @@ footer{
         font-size: 20px;
     }
 
-    .container-header{
+    header{
         width: 100%;
         height: 100%;
     }
@@ -451,6 +438,9 @@ footer{
         align-items: center;
         height: 100%;
     }    
+
+
+    
 }
  
  
