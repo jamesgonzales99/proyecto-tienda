@@ -34,7 +34,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #bff1ee88;
+  background-color: green;
   width: 100%;
   height: 100px; }
   header nav {
@@ -56,6 +56,8 @@ header {
       text-decoration: none;
       font-size: 3rem;
       font-family: 'Staatliches', cursive; }
+      .navbar li a:hover {
+        color: gray; }
 
 .container-login {
   margin-top: 10px; }
@@ -67,6 +69,28 @@ header {
     border: solid 1px black;
     font-family: 'Staatliches', cursive;
     font-size: 2rem; }
+
+.section-tipos {
+  display: flex;
+  flex-direction: column; }
+  .section-tipos h2 {
+    font-size: 6rem;
+    font-family: 'Staatliches', cursive;
+    color: gray;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center; }
+  .section-tipos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .section-tipos div img {
+      width: 40%;
+      height: 400px; }
+    .section-tipos div p {
+      color: #ce5225;
+      text-align: center; }
 
 .section-card {
   margin-top: 100px;
@@ -129,7 +153,7 @@ header {
     font-size: 2.5rem; }
 
 footer {
-  background-color: #bff1ee88;
+  background-color: #17847ca1;
   margin-top: auto; }
   footer .footer-redes {
     display: flex;
@@ -180,6 +204,9 @@ footer {
     margin-bottom: 10px; }
   a {
     font-size: 18px; }
+  .section-tipos div img {
+    height: 300px;
+    width: 60%; }
   p {
     font-size: 2rem;
     text-align: center; }
@@ -227,6 +254,9 @@ footer {
     height: 100%; }
   .container-login {
     text-align: center; }
+  .section-tipos div img {
+    height: 100px;
+    width: 50%; }
   p {
     font-size: 2rem;
     padding: 2rem;
@@ -256,6 +286,11 @@ footer {
     height: 300px; }
   a {
     font-size: 20px; }
+  .section-tipos h2 {
+    font-size: 4rem; }
+  .section-tipos div img {
+    height: 100px;
+    width: 50%; }
   header {
     width: 100%;
     height: 100%; }
