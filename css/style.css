@@ -22,7 +22,9 @@ p {
   color: black;
   font-size: 2.5rem;
   text-align: center;
-  font-family: 'Albert Sans', sans-serif; }
+  font-family: 'Albert Sans', sans-serif;
+  margin: 10px;
+  padding: 20px; }
 
 .titulos {
   color: black;
@@ -34,7 +36,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: green;
+  background-color: rgba(168, 118, 27, 0.558);
   width: 100%;
   height: 100px; }
   header nav {
@@ -70,6 +72,21 @@ header {
     font-family: 'Staatliches', cursive;
     font-size: 2rem; }
 
+.section-1 {
+  width: 100%; }
+  .section-1 h1 {
+    text-align: center; }
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+  padding-top: 60px; }
+
 .section-tipos {
   display: flex;
   flex-direction: column; }
@@ -89,7 +106,7 @@ header {
       width: 40%;
       height: 400px; }
     .section-tipos div p {
-      color: #ce5225;
+      color: black;
       text-align: center; }
 
 .section-card {
@@ -109,7 +126,7 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    margin-top: 100px; }
+    margin-top: 60px; }
     .section-card .card img {
       width: 300px;
       object-fit: contain;
@@ -128,8 +145,9 @@ header {
       display: flex;
       justify-content: space-evenly; }
       .section-card .card div a {
-        grid-column: 1/3;
-        grid-row: 4/4; }
+        padding-top: 10%; }
+      .section-card .card div p {
+        padding-bottom: 50px; }
 
 .imagen-nosotros {
   margin: 2px;
@@ -145,10 +163,12 @@ header {
   flex-direction: column;
   align-items: center;
   border: solid black 1px;
-  width: 100%; }
+  width: 100%;
+  height: 400PX;
+  background-color: gray; }
   .form input {
     width: 30%;
-    height: 70px;
+    height: 60px;
     margin-top: 50px;
     font-size: 2.5rem; }
 
@@ -187,6 +207,14 @@ footer {
     height: 100%;
     align-items: center; } }
 
+@media (max-width: 1024px) {
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0%; } }
+
 @media (max-width: 768px) {
   .section-card {
     grid-template-columns: 1fr 1fr;
@@ -197,6 +225,12 @@ footer {
     text-align: center;
     font-size: 6rem;
     height: 100px; }
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0%; }
   .imagen-nosotros {
     width: 100%;
     height: 300px;
@@ -267,6 +301,12 @@ footer {
     justify-self: center;
     font-size: 5rem;
     margin: 1px; }
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0%; }
   .section-card {
     margin-top: 5px;
     display: flex;
@@ -284,6 +324,9 @@ footer {
     margin-top: 2px;
     justify-content: space-between;
     height: 300px; }
+  .imagenes {
+    display: none;
+    padding: 0; }
   a {
     font-size: 20px; }
   .section-tipos h2 {
@@ -297,7 +340,7 @@ footer {
   .container-login {
     text-align: center; }
   p {
-    font-size: 15px;
+    font-size: 2rem;
     padding: 2rem;
     text-align: center; }
   .titulos {
@@ -312,3 +355,22 @@ footer {
     flex-direction: column;
     align-items: center;
     height: 100%; } }
+
+@media (max-width: 375px) {
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0%; } }
+
+.boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px; }
+  .boton button {
+    width: 15%;
+    height: 50px;
+    font-size: 2rem; }

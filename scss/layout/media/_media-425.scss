@@ -43,6 +43,15 @@
         margin: 1px;
     }
 
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0%;
+        
+    }
+
     .section-card{
         margin-top: 5px;
         display: flex;
