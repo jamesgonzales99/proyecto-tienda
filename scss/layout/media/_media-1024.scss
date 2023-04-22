@@ -1,9 +1,57 @@
 @media(max-width:1024px){
-    .imagenes{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        padding: 0%;
- }    
+    header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:$background-principal;
+     width: 100%;
+    height: 100px;
+
+    nav{
+        width: 70%;
+        align-self: center;
+        margin-top: 10px;  
+    }
+
+    }
+    
+ 
+ .navbar{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+ 
+}
+
+.conteiner-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.form{
+    
+    width: 60%;
+    
+    input{
+        width: 80%;
+        height: 50px;
+        
+
+    }
+}
+
+
+       
+
+        textarea{
+            margin-top: 50px;
+            width: 80%;
+            resize: none;
+            
+        }
 }

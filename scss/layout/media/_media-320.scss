@@ -10,10 +10,30 @@
         height: 300px;
     }
 
+    .section-tipos{
+        width: 100%;
+
+        }
+        img{
+            width: 100%;
+        }
+        
+    
+    
+     
+
     .imagenes{
-        display: none;
-        padding: 0;
+        .carousel{
+            width: 100%;
+            height: 25rem;
+           
+        }
+        .w-100 {
+            width:100%;
+            height: 25rem;
+        }    
     }
+
 
     a{
         font-size: 20px;
@@ -24,14 +44,16 @@
     }
 
     .section-tipos div img{
-        height: 100px;
-        width: 50%;
+        height: 150px;
+        width: 80%;
     }
 
     header{
         width: 100%;
         height: 100%;
     }
+
+    
 
     .container-login{
        text-align: center;
@@ -43,16 +65,14 @@
         font-size: 2rem;
         padding: 2rem;
         text-align: center;
-        // padding-left: 2rem;
-        // padding-right: 2rem;
     }
 
     .titulos{
         flex-direction: column;
-        /* align-items: center; */
         justify-self: center;
-        font-size: 3rem;
+        font-size: 4rem;
         margin: 1px;
+        margin-top: 2rem;
     }
 
     .section-card{
@@ -62,7 +82,45 @@
         align-items: center;
         height: 100%;
     }    
+    .form{
+        width: 100%;
+        
+        input{
+            width: 90%;
+            height: 50px;
+        }
 
 
-    
-}
+        .boton{
+            width: 100%;
+            margin-top: 50px;
+        
+
+            button{
+                width: 25%;
+                height: 50px;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .comentario{
+            width: 100%;
+             textarea{
+                margin-top: 50px;
+                width: 90%;
+                resize: none;
+             }
+             }
+    }
+
+
+
+    .imagen-nosotros{
+        img{
+            width: 90%;
+        }
+    }
+
+
+ }
