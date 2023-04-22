@@ -6,8 +6,19 @@
     width: 100%;
     height:400px;
     margin-bottom: 2rem;
+    
 
     img{
         width: 50%;
+        border: 3px solid;
     }
+ }
+
+
+
+ .imagen-nosotros-2{
+    @extend .imagen-nosotros;
+    height: 300;
+    
+
  }
