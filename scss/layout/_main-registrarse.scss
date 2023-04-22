@@ -13,7 +13,7 @@
     border: solid black 3px;
     width: 40%;
     height: 500PX;
-    background-color: rgba(128, 128, 128, 0.711);
+    background-color: rgb(218, 206, 206);
     input{
         width: 60%;
         height: 50px;
@@ -22,19 +22,4 @@
         border: solid black 1px;
 
     }
-}
-
-.comentario{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-       
-
-        textarea{
-            margin-top: 50px;
-            width: 60%;
-            resize: none;
-            
-        }
 }
