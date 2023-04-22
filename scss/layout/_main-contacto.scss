@@ -25,10 +25,7 @@
 }
 
 .comentario{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+    @include flex(row,center,100%);
        
 
         textarea{

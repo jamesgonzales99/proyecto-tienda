@@ -1,6 +1,6 @@
 .section-1{ 
     width: 100%;
-    background-image: url("../../assets/img/");
+    
     
     
     h1{
@@ -29,6 +29,9 @@
 .section-tipos{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     h2{
         font-size: 6rem;
         font-family: 'Staatliches', cursive;
@@ -44,6 +47,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
         img{
             width: 40%;
             height: 500px;
@@ -52,6 +56,18 @@
             color: black;
             text-align: center;  
         }
-    
+         
+         
     }  
+
+    // .section-tipos-2{
+    //     @extend .section-tipos;
+    //     border: 1px solid;
+    //     color: green;
+    // }
+    
   }
+    
+    
+    
+  

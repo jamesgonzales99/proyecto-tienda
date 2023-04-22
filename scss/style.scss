@@ -9,11 +9,15 @@
 @import "./layout/main-nosotros";
 @import "./layout/main-registrarse";
 @import "./layout/footer";
+@import "./components/botones";
+@import "./components/boostrap";
+
+
+// media-querry
+
 @import "./layout/media/media-otras";
 @import "./layout/media/media-1024";
 @import "./layout/media/media-768";
 @import "./layout/media/media-425";
-@import "./layout/media/media-320";
 @import "./layout/media/media-375";
-@import "./components/botones";
-@import "./components/boostrap";
+@import "./layout/media/media-320";
